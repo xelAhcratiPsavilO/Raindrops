@@ -8,6 +8,9 @@ class Raindrops
     if number%5 == 0
       string += "Plang"
     end
+    if number%7 == 0
+      string += "Plong"
+    end    
     return string
   end
 

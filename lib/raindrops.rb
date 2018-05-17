@@ -11,6 +11,9 @@ class Raindrops
     if number%7 == 0
       string += "Plong"
     end
+    if string.empty?
+      string = number
+    end
     return string
   end
 

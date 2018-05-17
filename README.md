@@ -29,7 +29,7 @@ LOOP until all app completed:
 15.- I pass my test  
 16.- I commit on green phase  
 
-## Context
+## Context 📝
 
 Deloitte Digital Tech Test
 
@@ -47,3 +47,28 @@ Examples:
 - 34 has four factors: 1, 2, 17, and 34: this would be '34'
 
 This test can be completed in a language of your choice and should be made available on your github account. You should write tests to cover your expected range of inputs and outputs. Commit often and document well.
+
+
+## Getting started 🚴
+
+```
+1.- Clone the repository.
+
+2.- Run bundle install for an updated environment.
+```
+
+## How to execute the application 🎱
+```
+irb
+2.4.1 :001 > require './lib/raindrops'
+ => true
+2.4.1 :002 > output_raindrops(3)
+ => "Pling"
+```
+
+## Testing 🔎
+```
+rspec
+```
+
+

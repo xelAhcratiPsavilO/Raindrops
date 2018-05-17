@@ -10,8 +10,9 @@ class Raindrops
     end
     if number%7 == 0
       string += "Plong"
-    end    
+    end
     return string
   end
+  
 
 end

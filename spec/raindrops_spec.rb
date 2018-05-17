@@ -11,6 +11,10 @@ describe Raindrops do
       expect(subject.output_raindrops(10)).to eq('Plang')
     end
 
+    it 'returns Plong if number has a factor of 7' do
+      expect(subject.output_raindrops(14)).to eq('Plong')
+    end
+
   end
 
 end

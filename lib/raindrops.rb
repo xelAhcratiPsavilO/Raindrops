@@ -13,6 +13,5 @@ class Raindrops
     end
     return string
   end
-  
 
 end

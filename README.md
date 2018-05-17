@@ -73,4 +73,8 @@ irb
 rspec
 ```
 
+## Improvement 📈
+
+I would like to work on a different algorithm to increase the scalability of the app.
+
 

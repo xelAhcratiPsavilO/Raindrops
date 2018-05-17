@@ -62,8 +62,10 @@ This test can be completed in a language of your choice and should be made avail
 irb
 2.4.1 :001 > require './lib/raindrops'
  => true
-2.4.1 :002 > output_raindrops(3)
- => "Pling"
+2.4.1 :002 >  R = Raindrops.new
+ => #<Raindrops:0x00007ffb5b156040>
+ 2.4.1 :003 > R.output_raindrops(3)
+ => "Pling" 
 ```
 
 ## Testing 🔎

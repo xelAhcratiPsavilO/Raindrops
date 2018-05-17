@@ -64,7 +64,7 @@ irb
  => true
 2.4.1 :002 >  R = Raindrops.new
  => #<Raindrops:0x00007ffb5b156040>
- 2.4.1 :003 > R.output_raindrops(3)
+2.4.1 :003 > R.output_raindrops(3)
  => "Pling" 
 ```
 

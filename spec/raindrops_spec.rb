@@ -6,7 +6,11 @@ describe Raindrops do
     it 'returns Pling if number has a factor of 3' do
       expect(subject.output_raindrops(6)).to eq('Pling')
     end
-    
+
+    it 'returns Plang if number has a factor of 5' do
+      expect(subject.output_raindrops(10)).to eq('Plang')
+    end
+
   end
 
 end

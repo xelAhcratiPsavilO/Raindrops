@@ -21,7 +21,7 @@ describe Raindrops do
     end
 
     it 'returns PlingPlandPlong if number has a factor of 3, 5 and 7' do
-      expect(subject.output_raindrops(21)).to eq('PlingPlong')
+      expect(subject.output_raindrops(105)).to eq('PlingPlangPlong')
     end
 
     it 'returns the numbers digits if it has no factor of 3, 5 or 7' do

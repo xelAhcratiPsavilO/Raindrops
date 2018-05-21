@@ -15,6 +15,10 @@ describe Raindrops do
       expect(subject.output_raindrops(14)).to eq('Plong')
     end
 
+    it 'returns Plung if number has a factor of 9' do
+      expect(subject.output_raindrops(18)).to eq('PlingPlung')
+    end
+
 #This test exemplifies also PlingPlong and PlangPlong, no need to repeat:
     it 'returns PlingPlang if number has a factor of 3 and 5' do
       expect(subject.output_raindrops(15)).to eq('PlingPlang')
@@ -24,8 +28,12 @@ describe Raindrops do
       expect(subject.output_raindrops(105)).to eq('PlingPlangPlong')
     end
 
+    it 'returns PlingPlandPlongPlung if number has a factor of 3, 5 and 7' do
+      expect(subject.output_raindrops(945)).to eq('PlingPlangPlongPlung')
+    end
+
     it 'returns the numbers digits if it has no factor of 3, 5 or 7' do
-      expect(subject.output_raindrops(34)).to eq(34)
+      expect(subject.output_raindrops(34)).to eq('34')
     end
   end
 
